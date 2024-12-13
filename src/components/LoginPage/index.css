@@ -1,0 +1,83 @@
+/* Login Page */
+.bg-login {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: lightblue;
+}
+
+.photos-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  white-space: nowrap;
+  flex-wrap: wrap;
+}
+
+.login-img-1 {
+  border-radius: 3px;
+  margin: 3px;
+  height: 200px;
+  width: 105px;
+}
+
+.login-card {
+  justify-content: flex-end;
+  border-radius: 50px 50px 0px 0px;
+  text-align: center;
+  height: 200px;
+  margin: 0px;
+  background-color: white;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-card-head {
+  font-size: 25px;
+  font-weight: 400;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.feed-logo {
+  height: 30px;
+  width: 35px;
+  margin: 0px;
+}
+
+.login-card-para {
+  margin: 0px;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.login-card-btn {
+  border: 0px;
+  border-radius: 30px;
+  height: 50px;
+  width: 200px;
+  margin: 0px;
+  text-align: center;
+  background-color: #292929;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.google-logo {
+  font-size: 20px;
+  margin-right: 3px;
+}
+
+.link{
+  text-decoration: none;
+}

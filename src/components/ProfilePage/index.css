@@ -1,0 +1,168 @@
+/* Profile Page */
+.bg-profile {
+  padding: 10px;
+  margin: 0px;
+  min-height: 100vh;
+}
+
+.profile-page-top {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url("https://res.cloudinary.com/dazwjceuy/image/upload/v1734000517/e03f5843a9e45ac45d45afb62caf7b85_uns8z6.png");
+  background-size: cover;
+  height: 90px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.arrow-btn {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+}
+
+.arrow {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profile-img-cont {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.profile-big-img {
+  height: 80px;
+  width: 80px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.edit-btn {
+  color: black;
+  background-color: transparent;
+  height: 35px;
+  width: 180px;
+  border: 1px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+}
+
+.profile-name {
+  font-size: 23px;
+  margin: 0px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.profile-name-para {
+  font-size: 15px;
+  margin: 0px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+.myposts-head {
+  font-size: 18px;
+  margin: 0px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+.myposts-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.myposts-imgs-cont {
+  width: 45%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.myposts-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("https://res.cloudinary.com/dazwjceuy/image/upload/v1734005343/4d7c4e80871ecb9f8cb0b906cbd75dc2_rewzlw.png");
+  background-size: cover;
+  border-radius: 10px;
+  padding: 6px;
+  height: 180px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.myposts-1-small {
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 13px;
+  height: 25px;
+  width: 40px;
+  align-self: flex-end;
+  margin: 0px;
+}
+
+.myposts-1-text {
+  text-align: left;
+  padding: 5px;
+}
+
+.myposts-1-head {
+  color: white;
+  font-size: 14px;
+  margin: 0px;
+  margin-bottom: 3px;
+}
+
+.myposts-1-para {
+  color: #ffffff99;
+  font-size: 10px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.myposts-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url("https://res.cloudinary.com/dazwjceuy/image/upload/v1734005312/6fec81e34bad0669ee66f27f627a1bb5_tsclse.png");
+  background-size: cover;
+  border-radius: 10px;
+  padding: 6px;
+  height: 200px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.myposts-3-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url("https://res.cloudinary.com/dazwjceuy/image/upload/v1734005330/d0e6b7c47def49eda7d338dfafc83b89_wbrg9w.png");
+  background-size: cover;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0px;
+  height: 250px;
+}
+
+.myposts-3 {
+  padding-top: 8px;
+  width: 45%;
+}
