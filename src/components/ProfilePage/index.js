@@ -7,7 +7,7 @@ const ProfilePage = () => (
   <>
     <div className="bg-profile">
       <div className="profile-page-top">
-        <Link to="/feeds-home">
+        <Link className="link" to="/feeds-home">
           <button className="arrow-btn">
             <FaArrowLeft className="arrow" />
           </button>

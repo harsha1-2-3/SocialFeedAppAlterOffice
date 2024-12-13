@@ -8,7 +8,7 @@ import "./index.css";
 const NewPostPage = () => (
   <>
     <div className="bg-newpost">
-      <Link to="/feeds-home">
+      <Link className="link" to="/feeds-home">
         <button className="newpost-head-btn">
           <FaArrowLeft className="arrow-left" />
           New Post
@@ -34,7 +34,7 @@ const NewPostPage = () => (
           Camera
         </button>
       </div>
-      <Link to="/feeds-home">
+      <Link className="link" to="/feeds-home">
         <button className="create-newpost-btn">CREATE</button>
       </Link>
     </div>
